@@ -2,5 +2,5 @@ SRC += matrix.c
 
 SPI_DRIVER_REQUIRED = yes
 CUSTOM_MATRIX = lite
-RGBLIGHT_ENABLE = yes
-WS2812_DRIVER = vendor
+RGBLIGHT_ENABLE = no
+#WS2812_DRIVER = vendor

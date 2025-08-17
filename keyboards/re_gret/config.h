@@ -20,12 +20,9 @@
 // SHR Pin Q: H G F E A B C D
 #define SHIFTREG_ROW_PINS { 0x80, 0x40, 0x20, 0x10, 0x01, 0x02, 0x04, 0x08 }
 
-#define WS2812_DI_PIN GP26
-#define RGBLIGHT_LED_COUNT 11
-
-#ifdef RGBLIGHT_ENABLE
-  #define RGBLIGHT_EFFECT_RAINBOW_SWIRL   // enable rainbow swirl
-  #define RGBLIGHT_SLEEP                  // turn off LEDs when host sleeps
-  #define RGBLIGHT_LAYERS                 // per-layer LED effects
-  #define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_RAINBOW_SWIRL
-#endif
+// #ifdef RGBLIGHT_ENABLE
+//   #define RGBLIGHT_EFFECT_RAINBOW_SWIRL   // enable rainbow swirl
+//   #define RGBLIGHT_SLEEP                  // turn off LEDs when host sleeps
+//   #define RGBLIGHT_LAYERS                 // per-layer LED effects
+//   #define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_RAINBOW_SWIRL
+// #endif
